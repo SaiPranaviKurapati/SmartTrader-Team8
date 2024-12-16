@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-
+#hello
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
 def fetch_and_preprocess_data(ticker, start_date, end_date):
